@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include whitelable *.css
+recursive-include whitelable *.csv
+recursive-include whitelable *.html
+recursive-include whitelable *.ico
+recursive-include whitelable *.js
+recursive-include whitelable *.json
+recursive-include whitelable *.md
+recursive-include whitelable *.png
+recursive-include whitelable *.py
+recursive-include whitelable *.svg
+recursive-include whitelable *.txt
+recursive-exclude whitelable *.pyc
